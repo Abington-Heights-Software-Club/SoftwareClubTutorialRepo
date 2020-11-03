@@ -15,7 +15,7 @@ public class MikeMove : MonoBehaviour
     {
         if(Input.GetKeyDown("m"))
         {
-            transform.position += new Vector3(5, 0);
+            transform.position = transform.position +  new Vector3(5, 0);
         }
     }
 }
