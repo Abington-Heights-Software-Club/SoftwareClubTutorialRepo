@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MikeMove : MonoBehaviour
+public class JoeMove : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -13,9 +13,9 @@ public class MikeMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown("m"))
+        if(Input.GetKeyDown("j"))
         {
-            transform.position = transform.position +  new Vector3(5, 0);
+        transform.position += new Vector3(5,0);
         }
     }
 }
