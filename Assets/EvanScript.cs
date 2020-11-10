@@ -15,7 +15,7 @@ public class EvanScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            transform.position = transform.position + new Vector3(-1, -1);
+            transform.position = transform.position + new Vector3(1, 1);
         }
     }
 }
