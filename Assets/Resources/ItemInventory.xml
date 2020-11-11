@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WeaponList>
+    <Weapon ID = "small_sword" Type = "melee">
+        <ItemTitle>Small Sword</ItemTitle>
+        <ItemDesc>A sword that started the entire XML/Unity fiasco.</ItemDesc>
+        <Image>smallsword</Image>
+    </Weapon>
+    <Weapon ID = "bow_and_arrow" Type = "range">
+        <ItemTitle>Bow and Arrow</ItemTitle>
+        <ItemDesc>A bow only strong enough to break the small sword.</ItemDesc>
+        <Image>bowarrow</Image>
+    </Weapon>
+    <Weapon ID = "rock" Type = "range">
+        <ItemTitle>Rock</ItemTitle>
+        <ItemDesc>It's not a boulder... it's a rock!</ItemDesc>
+        <Image>rock</Image>
+    </Weapon>
+    <Weapon ID = "banana" Type = "melee">
+        <ItemTitle>Banana</ItemTitle>
+        <ItemDesc>Watch out! It's gonna get ya</ItemDesc>
+        <Image>banana</Image>
+    </Weapon>
+</WeaponList>
